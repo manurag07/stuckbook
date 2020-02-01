@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_01_161217) do
+ActiveRecord::Schema.define(version: 2020_02_01_192540) do
+
+  create_table "friendships", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "friend_id"
+    t.string "state", default: "pending"
+    t.datetime "friended_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 # Could not dump table "users" because of following StandardError
 #   Unknown type 'stringr' for column 'gender'
