@@ -1,0 +1,21 @@
+<div class="jumbotron">
+  <div class="container">
+
+    <div class="col-md-4">
+      <%= gravatar_tag @user.email, size: 200 %>
+    </div>
+
+    <div class="col-md-4">
+      <h2><%= @user.username %></h2>
+      <p>Age: <%= @user.age%></p>
+      <p>Gender:<%= @user.gender%></p>
+    </div>
+
+    <div class="col-md-4">
+      <h2>Who I am</h2>
+      <p>Friends: 110</p>
+      <small>bio: <%= @user.bio%></small>
+    </div>
+
+  </div>
+</div>

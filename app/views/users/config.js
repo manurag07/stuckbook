@@ -1,0 +1,22 @@
+CKEDITOR.editorConfig = function (config) {
+  config.enterMode = CKEDITOR.ENTER_BR;
+  config.fillEmptyBlocks = false;
+  config.allowedContent=true;
+  config.basicEntities = false;
+  config.entities_additional = '';
+  config.contentsCss = ["/assets/v2/bootstrap.min.css", "/assets/v2/style.css", "/assets/v2/blog.css", "/assets/v2/ckeditor.css"];
+  config.filebrowserImageUploadUrl = "/ckeditor/pictures";
+   config.filebrowserImageBrowseLinkUrl = "/ckeditor/pictures";
+   config.filebrowserImageBrowseUrl = "/ckeditor/pictures";
+  config.filebrowserUploadUrl = "/ckeditor/attachment_files";
+  config.filebrowserBrowseUrl = "/ckeditor/attachment_files";
+  config.filebrowserFlashBrowseUrl = "/ckeditor/attachment_files";
+  config.filebrowserFlashUploadUrl = "/ckeditor/attachment_files";
+  config.extraPlugins = 'videoembed,lineheight';
+  config.removePlugins='wsc,scayt,about,iframe,flash,language,pastefromword,showblocks,save,newpage,print,templates,smiley,pagebreak,anchor,specialchar,getselection';
+  config.removeButtons = 'HiddenField,Form,TextField,Textarea,Checkbox,Radio,CreateDiv,Anchor,Select';
+  config.height = '500';
+  config.skin = 'office2013';
+  config.font_names = 'Arial;Times New Roman;Verdana;Source Sans Pro';
+  config.line_height="1em;1.15em;1.25em;1.35em;1.5em;2em;2.5em;3em" ;
+}
