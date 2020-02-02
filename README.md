@@ -5,20 +5,14 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 2.6.3
 
-* System dependencies
+* System dependencies: not required
 
-* Configuration
+* Configuration: not require
 
-* Database creation
+* Database creation: rails db:setup
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Just clone it and create database and start the server.
 
 * ...
