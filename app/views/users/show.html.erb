@@ -12,7 +12,7 @@
     </div>
 
     <div class="col-md-4">
-      <p>Friends: 110</p>
+      <p>Friends: <%= @user.friendships.count + @user.inverse_friendships.count%></p>
       <h2>Who I am</h2>
       <small>bio: <%= @user.bio%></small>
     </div>
