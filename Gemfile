@@ -77,4 +77,4 @@ gem 'font-awesome-rails'
 
 gem 'gravatarify', '~> 3.0.0'
 
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
